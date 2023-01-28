@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    
+    height: 500px;
+    width: 60%;
+    
+
+}
+.item{
+   background-color: red;
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+   
+}
+.item-6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-7{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item{
+    background-image: url('https://i.pinimg.com/originals/45/de/42/45de424a29a8000a65787ec74440799c.png');');
+
+}
